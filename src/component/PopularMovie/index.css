@@ -5,3 +5,16 @@
   align-items: center;
   flex-wrap: wrap;
 }
+.pagination {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.button-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.page {
+  margin: 0px 15px;
+}
