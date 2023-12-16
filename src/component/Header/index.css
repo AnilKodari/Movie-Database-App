@@ -1,0 +1,25 @@
+.movie-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  padding: 5px 10px;
+}
+.movie {
+  color: black;
+}
+.popular-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.name {
+  padding-right: 20px;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+.active-link {
+  color: red;
+  /* Add any other styles for the active link here */
+}

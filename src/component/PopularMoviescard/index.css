@@ -1,0 +1,33 @@
+.movies-list {
+  list-style: none;
+  margin-bottom: 20px;
+}
+.movie {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.heading {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.rating {
+  color: #888;
+  margin-bottom: 5px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+}
+.button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
